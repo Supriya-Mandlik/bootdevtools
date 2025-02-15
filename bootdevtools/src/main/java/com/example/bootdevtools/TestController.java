@@ -10,9 +10,9 @@ public class TestController {
 	@RequestMapping("/test")
 	@ResponseBody
 	public String test() {
-		int a=67;
-		int b=89;
-		int c=20;
+		int a=100;
+		int b=100;
+		int c=100;
 		int d=100;
 		return "this is just testing sum of a and b is "+(a+b+c+d);
 	}
